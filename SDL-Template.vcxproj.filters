@@ -286,13 +286,13 @@
     <None Include="SDL\dll\SDL3_mixer.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Library Include="SDL\lib\SDL3.lib" />
-    <Library Include="SDL\lib\SDL3_image.lib" />
-    <Library Include="SDL\lib\SDL3_mixer.lib" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SDL\libs\SDL3.lib" />
+    <Library Include="SDL\libs\SDL3_image.lib" />
+    <Library Include="SDL\libs\SDL3_mixer.lib" />
   </ItemGroup>
 </Project>
